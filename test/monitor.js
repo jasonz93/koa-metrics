@@ -18,7 +18,6 @@ describe('Test monitor', () => {
     it('Test monitor', function (done) {
         emitter.on('request', (metric) => {
             emitter.removeAllListeners();
-            expect(metric).have.all.keys(['method', 'url', 'startAt', 'duration']);
             expect(metric.method).to.be.equal('GET');
             expect(metric.url).to.be.equal('/test/monitor');
             done();
