@@ -1,11 +1,11 @@
-# koa-monitor
-A monitor middleware for koa 2
+# koa-metrics
+A metrics middleware for koa 2
 This middleware is too simple that I wondered if it is nessesary to write this package...
 
 ## How to
 ```javascript
 const Koa = require('koa');
-const MonitorFactory = require('koa-monitor');
+const MonitorFactory = require('koa-metrics');
 let app = new Koa();
 app.use(MonitorFactory((metric) => {
     // When a request ended, this function will be called with a metric object.

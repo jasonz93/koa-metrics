@@ -1,27 +1,28 @@
 {
-  "name": "koa-monitor",
+  "name": "koa-metrics",
   "version": "1.0.0",
-  "description": "A monitor middleware for koa 2",
+  "description": "A metrics middleware for koa 2",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover node_modules/mocha/bin/_mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jasonz93/koa-monitor.git"
+    "url": "git+https://github.com/jasonz93/koa-metrics.git"
   },
   "keywords": [
     "koa",
     "monitor",
+    "metrics",
     "middleware",
     "koa2"
   ],
   "author": "Sihao Zhang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jasonz93/koa-monitor/issues"
+    "url": "https://github.com/jasonz93/koa-metrics/issues"
   },
-  "homepage": "https://github.com/jasonz93/koa-monitor#readme",
+  "homepage": "https://github.com/jasonz93/koa-metrics#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "coveralls": "^2.12.0",
